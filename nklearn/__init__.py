@@ -1,3 +1,4 @@
-from .linear_model.linear_regression import LinearRegression
+from .linear_model.linear_regression import LinearRegression, LinearRegressionGD
 
-__all__ = ["LinearRegression"]
+__all__ = ["LinearRegression",
+           "LinearRegressionGD"]
